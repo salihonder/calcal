@@ -22,4 +22,16 @@ function App() {
   );
 }
 
+
+<div>
+      <Title text={"Age " + value} />
+      <br />
+      <input
+        type="text"
+        placeholder="Age"
+        value={value}
+        onChange={(event) => setValue(event.target.value)}
+      />
+    </div>
+
 export default App;
