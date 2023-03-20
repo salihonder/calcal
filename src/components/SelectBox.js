@@ -1,6 +1,6 @@
 const SelectBox = () => {
     return <>
-        <label className="measureLabel">Activity</label>
+        <label className="measureLabel">Activities</label>
         <select className="measures selectbox">
             <option>No  exercise</option>
             <option>Lightly active</option>
